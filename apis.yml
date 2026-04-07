@@ -5,10 +5,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-      - Clients
-      - JetBrains
-      - IDE Extension
-      - HTTP Client
+  - Clients
+  - HTTP Client
+  - IDE Extension
+  - JetBrains
 url: >-
   https://raw.githubusercontent.com/api-evangelist/http-client/refs/heads/main/apis.yml
 created: '2026-03-27'
@@ -21,10 +21,10 @@ apis:
       HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE.
     humanURL: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
     tags:
-        - Clients
-        - JetBrains
-        - IDE Extension
-        - HTTP Client
+      - Clients
+      - HTTP Client
+      - IDE Extension
+      - JetBrains
     properties:
       - type: Documentation
         url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
