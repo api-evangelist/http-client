@@ -46,7 +46,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-      - type: Getting Started
+      - type: GettingStarted
         url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
       - type: Exploring HTTP Syntax
         url: https://www.jetbrains.com/help/idea/exploring-http-syntax.html
@@ -57,7 +57,7 @@ common:
     url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
   - type: Documentation
     url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/JetBrains
   - type: Company
     url: https://www.jetbrains.com
