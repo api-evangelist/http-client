@@ -16,51 +16,53 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API Testing
-  - Clients
-  - Developer Tools
-  - HTTP Client
-  - IDE Extension
-  - IntelliJ
-  - JetBrains
-  - REST Client
+- API Testing
+- Clients
+- Developer Tools
+- HTTP Client
+- IDE Extension
+- IntelliJ
+- JetBrains
+- REST Client
 url: >-
   https://raw.githubusercontent.com/api-evangelist/http-client/refs/heads/main/apis.yml
 created: '2026-03-27'
 modified: '2026-04-28'
 specificationVersion: '0.19'
 apis:
-  - aid: http-client:http-client
-    name: HTTP Client
-    description: >-
-      JetBrains HTTP Client lets developers compose, edit, and execute HTTP,
-      gRPC, WebSocket, and GraphQL requests directly within IntelliJ-based
-      IDEs using .http and .rest files, with environment variables, response
-      handlers, and seamless OpenAPI integration.
-    humanURL: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-    tags:
-      - Clients
-      - HTTP Client
-      - IDE Extension
-      - JetBrains
-    properties:
-      - type: Documentation
-        url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-      - type: GettingStarted
-        url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-      - type: Exploring HTTP Syntax
-        url: https://www.jetbrains.com/help/idea/exploring-http-syntax.html
-      - type: HTTP Response Handling
-        url: https://www.jetbrains.com/help/idea/http-response-handling-examples.html
-common:
-  - type: Website
-    url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
+- aid: http-client:http-client
+  name: HTTP Client
+  description: >-
+    JetBrains HTTP Client lets developers compose, edit, and execute HTTP,
+    gRPC, WebSocket, and GraphQL requests directly within IntelliJ-based
+    IDEs using .http and .rest files, with environment variables, response
+    handlers, and seamless OpenAPI integration.
+  humanURL: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
+  tags:
+  - Clients
+  - HTTP Client
+  - IDE Extension
+  - JetBrains
+  properties:
   - type: Documentation
     url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-  - type: GitHubOrganization
-    url: https://github.com/JetBrains
-  - type: Company
-    url: https://www.jetbrains.com
+  - type: GettingStarted
+    url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
+  - type: Exploring HTTP Syntax
+    url: https://www.jetbrains.com/help/idea/exploring-http-syntax.html
+  - type: HTTP Response Handling
+    url: https://www.jetbrains.com/help/idea/http-response-handling-examples.html
+  - url: graphql/http-client-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
+- type: Documentation
+  url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
+- type: GitHubOrganization
+  url: https://github.com/JetBrains
+- type: Company
+  url: https://www.jetbrains.com
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
