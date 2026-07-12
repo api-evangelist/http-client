@@ -55,6 +55,10 @@ apis:
   - url: graphql/http-client-graphql.md
     type: GraphQL
 common:
+- type: VulnerabilityDisclosure
+  url: security/http-client-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/http-client-domain-security.yml
 - type: Website
   url: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
 - type: Documentation
@@ -63,6 +67,8 @@ common:
   url: https://github.com/JetBrains
 - type: Company
   url: https://www.jetbrains.com
+- url: https://blog.jetbrains.com/idea/feed/
+  type: Blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
