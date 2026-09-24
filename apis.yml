@@ -75,8 +75,6 @@ apis:
     url: https://www.jetbrains.com/help/idea/exploring-http-syntax.html
   - type: HTTP Response Handling
     url: https://www.jetbrains.com/help/idea/http-response-handling-examples.html
-  - url: graphql/http-client-graphql.md
-    type: GraphQL
 common:
 - type: VulnerabilityDisclosure
   url: security/http-client-vulnerability-disclosure.yml
