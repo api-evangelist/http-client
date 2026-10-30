@@ -1,4 +1,4 @@
-# HTTP Client (http-client)
+# HTTP Client
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,51 +66,109 @@
 
 HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates accelerating composition. The client supports HTTP/1.1 and HTTP/2 requests, gRPC unary and server-streaming calls, WebSocket connections, GraphQL operations, server-sent events, and imports from cURL and Postman collections. Environment files define reusable variables across global, request, and secured scopes; the cookie jar, request history, run/debug configurations, and Services tool window response viewer round out a workflow tightly integrated with the IntelliJ-based IDE family.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/http-client/refs/heads/main/apis.yml)
+**Areas:** API Testing · Clients · Developer Tools · HTTP Client · IDE Extension · IntelliJ · JetBrains · REST Client
 
-## Scope
+## HTTP Client on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for HTTP Client is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/http-client/](https://apis.io/providers/http-client/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - API Testing, Clients, Developer Tools, HTTP Client, IDE Extension, IntelliJ, JetBrains, REST Client
+- [HTTP Client](https://apis.io/apis/http-client/http-client/) — JetBrains HTTP Client lets developers compose, edit, and execute HTTP, gRPC, WebSocket, and GraphQL requests directly within IntelliJ-based IDEs using .http…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-27
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### HTTP Client
-JetBrains HTTP Client lets developers compose, edit, and execute HTTP, gRPC, WebSocket, and GraphQL requests directly within IntelliJ-based IDEs using .http and .rest files, with environment variables, response handlers, and seamless OpenAPI integration.
+GraphQL schemas.
 
-**Human URL:** [https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html](https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html)
+- [Moved to /providers/http-client/](https://apis.io/graphqls/http-client/http-client-graphql/)
 
+#### Security (2)
 
-#### Tags:
+Authentication, trust centre, and vulnerability disclosure.
 
- - Clients, HTTP Client, IDE Extension, JetBrains
+- [Http Client Domain Security](https://apis.io/security/http-client/http-client-domain-security/)
+- [Http Client Vulnerability Disclosure](https://apis.io/security/http-client/http-client-vulnerability-disclosure/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html)
-- [Getting Started](https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html)
-- [Exploring HTTP Syntax](https://www.jetbrains.com/help/idea/exploring-http-syntax.html)
-- [HTTP Response Handling](https://www.jetbrains.com/help/idea/http-response-handling-examples.html)
+Published plans, tiers and prices.
 
-## Common Properties
+- [Http Client Plans Pricing](https://apis.io/plans/http-client/http-client-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Http Client Rate Limits](https://apis.io/rate-limits/http-client/http-client-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Http Client Finops](https://apis.io/finops/http-client/http-client-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html)
 - [Documentation](https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html)
-- [GitHub Organization](https://github.com/JetBrains)
-- [Company](https://www.jetbrains.com)
+- [Blog](https://blog.jetbrains.com/idea/feed/)
+- [GitHub](https://github.com/JetBrains)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/http-client/](https://apis.io/providers/http-client/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HTTP Client: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/http-client/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
